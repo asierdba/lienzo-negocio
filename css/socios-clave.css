@@ -1,0 +1,20 @@
+.socios-clave-modal {
+  background: #e3f2fd;
+  border-radius: 22px;
+  padding: 0.5rem 1.5rem;
+}
+.socios-clave-modal h1,
+.socios-clave-modal h2,
+.socios-clave-modal h3 {
+  font-family: var(--font-title);
+}
+.socios-clave-modal,
+.socios-clave-modal p,
+.socios-clave-modal ul,
+.socios-clave-modal li {
+  font-family: var(--font-text);
+}
+.socios-clave-modal strong {
+  color: #1976d2;
+  font-weight: 700;
+}

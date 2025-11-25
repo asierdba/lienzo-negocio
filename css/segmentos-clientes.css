@@ -1,0 +1,21 @@
+.segmentos-clientes-modal h1,
+.segmentos-clientes-modal h2,
+.segmentos-clientes-modal h3 {
+  font-family: var(--font-title);
+}
+.segmentos-clientes-modal,
+.segmentos-clientes-modal p,
+.segmentos-clientes-modal ul,
+.segmentos-clientes-modal li {
+  font-family: var(--font-text);
+}
+
+.segmentos-clientes-modal {
+  background: #ffebee;
+  padding: 0.5rem 1.5rem;
+  border-radius: 22px;
+}
+.segmentos-clientes-modal strong {
+  color: #ff6e84;
+  font-weight: 700;
+}

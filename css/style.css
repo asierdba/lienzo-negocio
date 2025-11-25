@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "title-font";
+  src: url(../assets/fonts/FiraSans-Light.ttf);
+}
+@font-face {
+  font-family: "text-font";
+  src: url(../assets/fonts/MerriweatherSans-Regular.ttf);
+}
+
+:root {
+  --font-title: "title-font", Arial, sans-serif;
+  --font-text: "text-font", Arial, sans-serif;
+  --primary-color: #404040;
+  --secondary-color: #f2c14e;
+  --background-color: #353942;
+  --border-color: #d9d9d9;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "text-font", Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  font-family: "title-font", Arial, sans-serif;
+}
+
+header,
+footer {
+  background: linear-gradient(
+    to bottom,
+    #23272e 0%,
+    rgba(35, 39, 46, 0.95) 20%,
+    rgba(35, 39, 46, 0.85) 35%,
+    rgba(35, 39, 46, 0.65) 55%,
+    rgba(35, 39, 46, 0.35) 75%,
+    rgba(35, 39, 46, 0.1) 90%,
+    rgba(35, 39, 46, 0) 100%
+  );
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(
+    to top,
+    #23272e 0%,
+    rgba(35, 39, 46, 0.95) 20%,
+    rgba(35, 39, 46, 0.85) 35%,
+    rgba(35, 39, 46, 0.65) 55%,
+    rgba(35, 39, 46, 0.35) 75%,
+    rgba(35, 39, 46, 0.1) 90%,
+    rgba(35, 39, 46, 0) 100%
+  );
+  margin-top: auto;
+  font-size: 0.9rem;
+  padding: 0.8rem 2rem 1.2rem 2rem;
+}
+
+footer .footer-highlight {
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
+header .logo {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+header .logo:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 2.5vw;
+  min-height: 90px;
+}
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s, transform 0.3s;
+}
+.title:hover {
+  transform: scale(1.03);
+}
+.title span {
+  color: var(--secondary-color);
+}
+
+.canvas-list {
+  margin: 1.2rem 0 0.5rem 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  font-family: "text-font", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+}
+
+#sociosClave .canvas-list {
+  color: #1976d2;
+}
+#actividadesClave .canvas-list {
+  color: #ff9800;
+}
+#recursosClave .canvas-list {
+  color: #388e3c;
+}
+#propuestaValor .canvas-list {
+  color: #7c4d9b;
+}
+#relacionClientes .canvas-list {
+  color: #bfa600;
+}
+#canales .canvas-list {
+  color: #00838f;
+}
+#segmentosClientes .canvas-list {
+  color: #ff6e84;
+}

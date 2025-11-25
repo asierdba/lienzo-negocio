@@ -1,0 +1,45 @@
+.canvas-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.canvas-grid {
+  display: grid;
+  width: 90%;
+  max-width: 2000px;
+  gap: 1rem;
+  grid-template-areas:
+    "sociosClave actividadesClave propuestaValor relacionClientes segmentosClientes"
+    "sociosClave recursosClave propuestaValor canales segmentosClientes"
+    "estructuraCostes estructuraCostes fuentesIngresos fuentesIngresos fuentesIngresos";
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#sociosClave {
+  grid-area: sociosClave;
+}
+#actividadesClave {
+  grid-area: actividadesClave;
+}
+#recursosClave {
+  grid-area: recursosClave;
+}
+#propuestaValor {
+  grid-area: propuestaValor;
+}
+#relacionClientes {
+  grid-area: relacionClientes;
+}
+#canales {
+  grid-area: canales;
+}
+#segmentosClientes {
+  grid-area: segmentosClientes;
+}
+#estructuraCostes {
+  grid-area: estructuraCostes;
+}
+#fuentesIngresos {
+  grid-area: fuentesIngresos;
+}

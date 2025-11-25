@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentBridge - Business Canvas Model</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/segmentos-clientes.css" />
+    <link rel="stylesheet" href="css/propuesta-valor.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <a href="./index.html">
+          <img src="assets/img/logo.png" alt="Logo TalentBridge" class="logo" />
+        </a>
+        <h1 class="title">
+          Business Canvas Model para <span>TalentBridge</span>
+        </h1>
+        <div class="header-download">
+          <a href="#" id="download-pdf" class="download-link" download
+            >Click para descargar PDF</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="canvas-container">
+      <div class="canvas-grid">
+        <section
+          class="canvas-block"
+          id="sociosClave"
+          data-view="views/socios-clave.html"
+        >
+          <img src="assets/icons/handshake.png" alt="" class="icon" />
+          <h2>Socios Clave</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Asesoria legal y fiscal</li>
+            <li>Proveedores de servicios en la nube</li>
+            <li>Plataformas de certificación</li>
+            <li>Proveedores de servicios de pago</li>
+            <li>Comunidades profesionales</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="actividadesClave"
+          data-view="views/actividades-clave.html"
+        >
+          <img src="assets/icons/tasks.png" alt="" class="icon" />
+          <h2>Actividades Clave</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Mantener la plataforma activa y actualizada</li>
+            <li>Actividades de Resolución de Problemas</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="recursosClave"
+          data-view="views/recursos-clave.html"
+        >
+          <img src="assets/icons/box.png" alt="" class="icon" />
+          <h2>Recursos Clave</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Equipo especializado</li>
+            <li>Subcontratar servicios humanos</li>
+            <li>Archivos digitales y propiedad intelectual</li>
+            <li>Infraestructura escalable</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="propuestaValor"
+          data-view="views/propuesta-valor.html"
+        >
+          <img src="assets/icons/lightbulb.png" alt="" class="icon" />
+          <h2>Propuesta de Valor</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Confianza y eficiencia</li>
+            <li>Comodidad transaccional</li>
+            <li>Simplificación y mitigación de riesgos</li>
+            <li>Verificación de los profesionales</li>
+            <li>Solución de ventanilla única</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="relacionClientes"
+          data-view="views/relacion-clientes.html"
+        >
+          <img src="assets/icons/users.png" alt="" class="icon" />
+          <h2>Relación con Clientes</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Captación de talento y clientes</li>
+            <li>Fidelización, la mejor solución</li>
+            <li>Branding</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="canales"
+          data-view="views/canales.html"
+        >
+          <img src="assets/icons/share.png" alt="" class="icon" />
+          <h2>Canales</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Canales de pago</li>
+            <li>Herramientas de coodinación entre profesional y cliente.</li>
+            <li>Flexibilidad y feedback</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="segmentosClientes"
+          data-view="views/segmentos-clientes.html"
+        >
+          <img src="assets/icons/target.png" alt="" class="icon" />
+          <h2>Segmentos de Clientes</h2>
+          <div class="block-content"></div>
+          <ul class="canvas-list">
+            <li>Adultos</li>
+            <li>Con responsabilidades</li>
+            <li>Estables económicamente, pero no ricos</li>
+            <li>Capaces a nivel digital</li>
+          </ul>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="estructuraCostes"
+          data-view="views/estructura-costes.html"
+        >
+          <img src="assets/icons/coins.png" alt="" class="icon" />
+          <h2>Estructura de Costes</h2>
+          <div class="block-content"></div>
+        </section>
+
+        <section
+          class="canvas-block"
+          id="fuentesIngresos"
+          data-view="views/fuentes-ingresos.html"
+        >
+          <img src="assets/icons/trending-up.png" alt="" class="icon" />
+          <h2>Fuentes de Ingresos</h2>
+          <div class="block-content"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span class="footer-highlight">© 2025</span> DevCrew |
+        <span class="footer-highlight">TalentBridge</span> – Business Canvas
+        Model
+      </p>
+    </footer>
+
+    <dialog id="modal" class="modal" aria-modal="true" role="dialog">
+      <div class="modal-content" role="document">
+        <button type="button" id="CerrarModal" aria-label="Cerrar">X</button>
+        <h1 class="modal-title">Contenido</h1>
+        <div class="dialog-body"></div>
+      </div>
+    </dialog>
+
+    <script src="js/events.js"></script>
+  </body>
+</html>

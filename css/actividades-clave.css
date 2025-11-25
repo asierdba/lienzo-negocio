@@ -1,0 +1,25 @@
+.actividades-clave-modal {
+  background: #fff3e0;
+  border-radius: 22px;
+  padding: 0.5rem 1.5rem;
+}
+.actividades-clave-modal h1,
+.actividades-clave-modal h2,
+.actividades-clave-modal h3,
+.actividades-clave-modal h4 {
+  font-family: var(--font-title);
+}
+.actividades-clave-modal,
+.actividades-clave-modal p,
+.actividades-clave-modal ul,
+.actividades-clave-modal li {
+  font-family: var(--font-text);
+}
+.actividades-clave-modal strong {
+  color: #ff9800;
+  font-weight: 700;
+}
+.titulos {
+  font-weight: bold;
+  color: #ff9800;
+}

@@ -1,0 +1,22 @@
+.relacion-clientes-modal h1,
+.relacion-clientes-modal h2,
+.relacion-clientes-modal h3 {
+  font-family: var(--font-title);
+}
+.relacion-clientes-modal {
+  background: #fffde7;
+  border-radius: 22px;
+  padding: 0 1.5rem 2rem 1.5rem;
+  font-family: var(--font-text);
+}
+
+.relacion-clientes-modal {
+  background: #fffde7;
+  border-radius: 22px;
+  padding: 0.5rem 1.5rem;
+  font-family: var(--font-text);
+}
+.relacion-clientes-modal strong {
+  color: #bfa600;
+  font-weight: 700;
+}
