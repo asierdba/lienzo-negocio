@@ -25,6 +25,9 @@
 }
 
 body {
+  background-image: url(../assets/img/waves.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: var(--background-color);
   font-family: "text-font", Arial, sans-serif;
   line-height: 1.6;
