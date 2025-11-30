@@ -1,0 +1,21 @@
+.fuentes-ingresos-modal h1,
+.fuentes-ingresos-modal h2,
+.fuentes-ingresos-modal h3 {
+  font-family: var(--font-title);
+}
+.fuentes-ingresos-modal,
+.fuentes-ingresos-modal p,
+.fuentes-ingresos-modal ul,
+.fuentes-ingresos-modal li {
+  font-family: var(--font-text);
+}
+
+.fuentes-ingresos-modal {
+  background: #fbe9e7;
+  padding: 0.5rem 1.5rem;
+  border-radius: 22px;
+}
+.fuentes-ingresos-modal strong {
+  color: #fa6353;
+  font-weight: 700;
+}

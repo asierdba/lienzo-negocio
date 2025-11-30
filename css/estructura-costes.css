@@ -1,0 +1,21 @@
+.estructura-costes-modal h1,
+.estructura-costes-modal h2,
+.estructura-costes-modal h3 {
+  font-family: var(--font-title);
+}
+.estructura-costes-modal,
+.estructura-costes-modal p,
+.estructura-costes-modal ul,
+.estructura-costes-modal li {
+  font-family: var(--font-text);
+}
+
+.estructura-costes-modal {
+  background: #eceff1;
+  padding: 0.5rem 1.5rem;
+  border-radius: 22px;
+}
+.estructura-costes-modal strong {
+  color: #2d3031;
+  font-weight: 700;
+}
